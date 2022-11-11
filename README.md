@@ -87,6 +87,7 @@ C++:
 	apt install mesa-utils libglu1-mesa-dev freeglut3-dev mesa-common-dev
 	apt install libglew-dev libglfw3-dev libglm-dev
 	apt install libao-dev libmpg123-dev
+	apt install libxinerama-dev libxcursor-dev
 	```
 	Next, initialize an OpenGL context and create an application window to draw in:
 	
