@@ -19,6 +19,11 @@ When building, it is best-advised to use a debian machine with a KDE plasma desk
 
 ``apt install kde-plasma-desktop``
 
+Create a build directory to work the next steps in:
+
+``mkdir build``
+``cd build``
+
 that will make the following process easier.
 
 ## Dependencies
@@ -37,9 +42,15 @@ C++:
 
 ``apt install python3-dev``
 
-- Bullet 2.88 https://github.com/bulletphysics/bullet3/releases
+- Bullet https://github.com/bulletphysics/bullet3/releases
 
-  Download Bullet 2.88 from the above link and install using the following commands.
+  Download Bullet from the above link:
+  
+  	``wget https://github.com/bulletphysics/bullet3/archive/refs/tags/3.24.tar.gz``
+	``tar -xvf 3.24.tar.gz``
+	``cd bullet3-3.24``
+  
+  and install using the following commands.
   
 	``./build_cmake_pybullet_double.sh``
 	
@@ -47,7 +58,7 @@ C++:
 	
 	``make install``
 
-- Eigen http://www.eigen.tuxfamily.org/index.php?title=Main_Page (Version : 3.3.7)
+- Eigen http://www.eigen.tuxfamily.org/index.php?title=Main_Page
 
 	``mkdir build && cd build``
 	
