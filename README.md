@@ -42,33 +42,33 @@ C++:
 
 ``apt install python3-dev``
 
-- Bullet https://github.com/bulletphysics/bullet3/releases
+- Bullet: https://github.com/bulletphysics/bullet3/releases
 
   Download Bullet from the above link:
   
-  	``wget https://github.com/bulletphysics/bullet3/archive/refs/tags/3.24.tar.gz``
-	
-	``tar -xvf 3.24.tar.gz``
-	
-	``cd bullet3-3.24``
+    	```
+	wget https://github.com/bulletphysics/bullet3/archive/refs/tags/3.24.tar.gz
+	tar -xvf 3.24.tar.gz
+	cd bullet3-3.24
+	```
   
   and install using the following commands:
   
-	``./build_cmake_pybullet_double.sh``
-	
-	``cd build_cmake``
-	
-	``make install``
+      	```
+	./build_cmake_pybullet_double.sh
+	cd build_cmake
+	make install
+  	```
 
-- Eigen http://www.eigen.tuxfamily.org/index.php?title=Main_Page
+- Eigen: http://www.eigen.tuxfamily.org/index.php?title=Main_Page
 
   Download Eigen from the above link:
   
-  	``wget https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz``
-	
-	``tar -xvf eigen-3.4.0.tar.gz``
-	
-	``cd eigen-3.4.0``
+  	```
+	wget https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz
+	tar -xvf eigen-3.4.0.tar.gz
+	cd eigen-3.4.0
+	```
 	
   and install using the following commands:
 
@@ -78,7 +78,7 @@ C++:
 	
 	``make install``
 
-- OpenGL https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e
+- OpenGL: https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e
 
 	Install more dependencies for OpenGL:
 	
