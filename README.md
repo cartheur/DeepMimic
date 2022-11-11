@@ -47,10 +47,12 @@ C++:
   Download Bullet from the above link:
   
   	``wget https://github.com/bulletphysics/bullet3/archive/refs/tags/3.24.tar.gz``
+	
 	``tar -xvf 3.24.tar.gz``
+	
 	``cd bullet3-3.24``
   
-  and install using the following commands.
+  and install using the following commands:
   
 	``./build_cmake_pybullet_double.sh``
 	
@@ -60,13 +62,24 @@ C++:
 
 - Eigen http://www.eigen.tuxfamily.org/index.php?title=Main_Page
 
+  Download Eigen from the above link:
+  
+  	``wget https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz``
+	
+	``tar -xvf eigen-3.4.0.tar.gz``
+	
+	``cd eigen-3.4.0``
+	
+  and install using the following commands:
+
 	``mkdir build && cd build``
 	
 	``cmake ..``
 	
 	``make install``
 
-- OpenGL >= 3.2 https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e
+- OpenGL https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e
+
 	Install more dependencies for OpenGL:
 	
 	```
@@ -86,7 +99,17 @@ C++:
 	make install
 	```
 
-- freeglut http://freeglut.sourceforge.net/ ( Version : 3.0.0 )
+- freeglut http://freeglut.sourceforge.net/
+
+  Download Freeglut from the above link:
+  
+  	``wget https://github.com/FreeGLUTProject/freeglut/releases/download/v3.4.0/freeglut-3.4.0.tar.gz``
+	
+	``tar -xvf freeglut-3.4.0.tar.gz``
+	
+	``cd freeglut-3.4.0``
+	
+  and install using the following commands:
 
 	``cmake .``
 	
@@ -94,7 +117,17 @@ C++:
 	
 	``make install``
   
-- glew http://glew.sourceforge.net/ ( Version : 2.1.0 )
+- glew http://glew.sourceforge.net/
+
+  Download Glew from the above link:
+  
+  	``wget https://sourceforge.net/projects/glew/files/glew/2.1.0/glew-2.1.0.tgz/download/glew-2.1.0.tgz``
+	
+	``tar -xvf glew-2.1.0.tgz``
+	
+	``cd glew-2.1.0``
+	
+  and install using the following commands:
 
 	``make``
 	
@@ -102,9 +135,17 @@ C++:
 	
 	``make clean``
 
-Misc:
+- SWIG http://www.swig.org/
 
-- SWIG http://www.swig.org/ ( Version : 4.0.0 )
+  Download Swig from the above link:
+  
+  	``wget http://prdownloads.sourceforge.net/swig/swig-4.1.0.tar.gz``
+	
+	``tar -xvf swig-4.1.0.tar.gz``
+	
+	``cd swig-4.1.0``
+	
+  and install using the following commands:
 
 	``./configure --without-pcre``
 	
@@ -119,7 +160,7 @@ Misc:
 
 Python 3 - pip:
 
-- If ``pip`` is not installed via , use ``apt install python3-pip``
+- If ``pip`` is not installed when you first installed Python3, use ``apt install python3-pip``
 
 - PyOpenGL http://pyopengl.sourceforge.net/ 
 
