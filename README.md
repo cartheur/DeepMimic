@@ -56,6 +56,25 @@ C++:
 	``make install``
 
 - OpenGL >= 3.2 https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e
+	Install more dependencies for OpenGL:
+	
+	```
+	apt update
+	apt install cmake pkg-config
+	apt install mesa-utils libglu1-mesa-dev freeglut3-dev mesa-common-dev
+	apt install libglew-dev libglfw3-dev libglm-dev
+	apt install libao-dev libmpg123-dev
+	```
+	Next, initialize an OpenGL context and create an application window to draw in:
+	
+	```
+	git clone https://github.com/glfw/glfw.git
+	cd glfw
+	cmake .
+	make
+	make install
+	```
+
 - freeglut http://freeglut.sourceforge.net/ ( Version : 3.0.0 )
 
 	``cmake .``
