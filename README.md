@@ -13,18 +13,29 @@ Code accompanying the following papers:
 The framework uses reinforcement learning to train a simulated humanoid to imitate a variety
 of motion skills from mocap data.
 
+When building, it is best-advised to use a debian machine with a KDE plasma desktop use
+
+``su`` enter the password, then,
+
+``apt install kde-plasma-desktop``
+
+that will make the following process easier.
 
 ## Dependencies
 
-``sudo apt install libgl1-mesa-dev libx11-dev libxrandr-dev libxi-dev``
+``apt install libgl1-mesa-dev libx11-dev libxrandr-dev libxi-dev``
 
-``sudo apt install mesa-utils``
+``apt install mesa-utils``
 
-``sudo apt install clang``
+``apt install clang``
 
-``sudo apt install cmake``
+``apt install cmake``
 
 C++:
+
+- Python 3 (install first as the Bullet build will require ``Python.h``)
+
+``apt install python3-dev``
 
 - Bullet 2.88 (https://github.com/bulletphysics/bullet3/releases)
 
@@ -34,7 +45,7 @@ C++:
 	
 	``cd build_cmake``
 	
-	``sudo make install``
+	``make install``
 
 - Eigen (http://www.eigen.tuxfamily.org/index.php?title=Main_Page) (Version : 3.3.7)
 
@@ -42,22 +53,22 @@ C++:
 	
 	``cmake ..``
 	
-	``sudo make install``
+	``make install``
 
-- OpenGL >= 3.2 (https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e) (instructions here)
+- OpenGL >= 3.2 (https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e)
 - freeglut (http://freeglut.sourceforge.net/) ( Version : 3.0.0 )
 
 	``cmake .``
 	
 	``make``
 	
-	``sudo make install``
+	``make install``
   
 - glew (http://glew.sourceforge.net/) ( Version : 2.1.0 )
 
 	``make``
 	
-	``sudo make install``
+	``make install``
 	
 	``make clean``
 
@@ -69,16 +80,17 @@ Misc:
 	
 	``make``
 	
-	``sudo make install``
+	``make install``
 
 - MPI 
 	- Windows: https://docs.microsoft.com/en-us/message-passing-interface/microsoft-mpi
-	- Linux: `sudo apt install libopenmpi-dev`
+	- Linux: `apt install libopenmpi-dev`
 
 
-Python:
+Python 3 - pip:
 
-- Python 3
+- If ``pip`` is not installed via , use ``apt install python3-pip``
+
 - PyOpenGL (http://pyopengl.sourceforge.net/) 
 
 ``pip install PyOpenGL PyOpenGL_accelerate``
