@@ -38,27 +38,27 @@ that will make the following process easier.
 
 C++:
 
-- Python 3 (install first as the Bullet build will require ``Python.h``)
+- Python 3 - install first as the Bullet build will require ``Python.h``
 
 ``apt install python3-dev``
 
 - Bullet: https://github.com/bulletphysics/bullet3/releases
 
-  	Download Bullet from the above link:
+  Download Bullet from the above link:
   
-    	```
+  	```
 	wget https://github.com/bulletphysics/bullet3/archive/refs/tags/3.24.tar.gz
 	tar -xvf 3.24.tar.gz
 	cd bullet3-3.24
 	```
 
-  	and install using the following commands:
+  and install using the following commands:
   
-      	```
-	./build_cmake_pybullet_double.sh
-	cd build_cmake
-	make install
-  	```
+  	``./build_cmake_pybullet_double.sh``
+	
+	``cd build_cmake``
+	
+	``make install``
 
 - Eigen: http://www.eigen.tuxfamily.org/index.php?title=Main_Page
 
@@ -69,8 +69,7 @@ C++:
 	tar -xvf eigen-3.4.0.tar.gz
 	cd eigen-3.4.0
 	```
-	
-  and install using the following commands:
+	and install using the following commands:
 
 	``mkdir build && cd build``
 	
@@ -103,12 +102,11 @@ C++:
 
   Download Freeglut from the above link:
   
-  	``wget https://github.com/FreeGLUTProject/freeglut/releases/download/v3.4.0/freeglut-3.4.0.tar.gz``
-	
-	``tar -xvf freeglut-3.4.0.tar.gz``
-	
-	``cd freeglut-3.4.0``
-	
+  	```
+	wget https://github.com/FreeGLUTProject/freeglut/releases/download/v3.4.0/freeglut-3.4.0.tar.gz
+	tar -xvf freeglut-3.4.0.tar.gz
+	cd freeglut-3.4.04
+	```
   and install using the following commands:
 
 	``cmake .``
@@ -121,11 +119,11 @@ C++:
 
   Download Glew from the above link:
   
-  	``wget https://sourceforge.net/projects/glew/files/glew/2.1.0/glew-2.1.0.tgz/download/glew-2.1.0.tgz``
-	
-	``tar -xvf glew-2.1.0.tgz``
-	
-	``cd glew-2.1.0``
+  	```
+	wget https://sourceforge.net/projects/glew/files/glew/2.1.0/glew-2.1.0.tgz/download/glew-2.1.0.tgz
+	tar -xvf glew-2.1.0.tgz
+	cd glew-2.1.0
+	```
 	
   and install using the following commands:
 
@@ -137,13 +135,13 @@ C++:
 
 - SWIG http://www.swig.org/
 
-  Download Swig from the above link:
+  Download SWIG from the above link:
   
-  	``wget http://prdownloads.sourceforge.net/swig/swig-4.1.0.tar.gz``
-	
-	``tar -xvf swig-4.1.0.tar.gz``
-	
-	``cd swig-4.1.0``
+  	```
+	wget http://prdownloads.sourceforge.net/swig/swig-4.1.0.tar.gz
+	tar -xvf swig-4.1.0.tar.gz
+	cd swig-4.1.0
+	```
 	
   and install using the following commands:
 
