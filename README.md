@@ -44,7 +44,7 @@ C++:
 	
 	``sudo make install``
 
-- OpenGL >= 3.2
+- OpenGL >= 3.2 (https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e) (instructions here)
 - freeglut (http://freeglut.sourceforge.net/) ( Version : 3.0.0 )
 
 	``cmake .``
