@@ -44,15 +44,15 @@ C++:
 
 - Bullet: https://github.com/bulletphysics/bullet3/releases
 
-  Download Bullet from the above link:
+  	Download Bullet from the above link:
   
     	```
 	wget https://github.com/bulletphysics/bullet3/archive/refs/tags/3.24.tar.gz
 	tar -xvf 3.24.tar.gz
 	cd bullet3-3.24
 	```
-  
-  and install using the following commands:
+
+  	and install using the following commands:
   
       	```
 	./build_cmake_pybullet_double.sh
