@@ -37,7 +37,7 @@ C++:
 
 ``apt install python3-dev``
 
-- Bullet 2.88 (https://github.com/bulletphysics/bullet3/releases)
+- Bullet 2.88 https://github.com/bulletphysics/bullet3/releases
 
   Download Bullet 2.88 from the above link and install using the following commands.
   
@@ -47,7 +47,7 @@ C++:
 	
 	``make install``
 
-- Eigen (http://www.eigen.tuxfamily.org/index.php?title=Main_Page) (Version : 3.3.7)
+- Eigen http://www.eigen.tuxfamily.org/index.php?title=Main_Page (Version : 3.3.7)
 
 	``mkdir build && cd build``
 	
@@ -55,8 +55,8 @@ C++:
 	
 	``make install``
 
-- OpenGL >= 3.2 (https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e)
-- freeglut (http://freeglut.sourceforge.net/) ( Version : 3.0.0 )
+- OpenGL >= 3.2 https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e
+- freeglut http://freeglut.sourceforge.net/ ( Version : 3.0.0 )
 
 	``cmake .``
 	
@@ -64,7 +64,7 @@ C++:
 	
 	``make install``
   
-- glew (http://glew.sourceforge.net/) ( Version : 2.1.0 )
+- glew http://glew.sourceforge.net/ ( Version : 2.1.0 )
 
 	``make``
 	
@@ -74,7 +74,7 @@ C++:
 
 Misc:
 
-- SWIG (http://www.swig.org/) ( Version : 4.0.0 )
+- SWIG http://www.swig.org/ ( Version : 4.0.0 )
 
 	``./configure --without-pcre``
 	
@@ -91,14 +91,14 @@ Python 3 - pip:
 
 - If ``pip`` is not installed via , use ``apt install python3-pip``
 
-- PyOpenGL (http://pyopengl.sourceforge.net/) 
+- PyOpenGL http://pyopengl.sourceforge.net/ 
 
 ``pip install PyOpenGL PyOpenGL_accelerate``
 
-- Tensorflow (https://www.tensorflow.org/) ( Vesrion : 1.13.1 )
+- Tensorflow https://www.tensorflow.org/ ( Vesrion : 2.10.0 )
 
 ``pip install tensorflow`` 
-- MPI4Py (https://mpi4py.readthedocs.io/en/stable/install.html)
+- MPI4Py https://mpi4py.readthedocs.io/en/stable/install.html
 
 ``pip install mpi4py``
 
